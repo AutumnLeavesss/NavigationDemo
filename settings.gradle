@@ -1,0 +1,4 @@
+include ':navigationcompiler'
+include ':navigationannotation'
+include ':app'
+rootProject.name = "NavigationDemo"

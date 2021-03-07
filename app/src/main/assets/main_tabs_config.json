@@ -1,0 +1,43 @@
+{
+  "activityColor": "#333333",
+  "inActivityColor": "#999999",
+  "selectTab": 0,
+  "tabs": [
+    {
+      "size": 24,
+      "enable": true,
+      "index": 0,
+      "pageUrl": "main/tabs/home",
+      "title": "首页"
+    },
+    {
+      "size": 24,
+      "enable": true,
+      "index": 1,
+      "pageUrl": "main/tabs/notification",
+      "title": "Second"
+    },
+    {
+      "size": 40,
+      "enable": true,
+      "index": 2,
+      "tintColor": "#ff678f",
+      "pageUrl": "activity/center/target",
+      "title": ""
+    },
+    {
+      "size": 24,
+      "enable": true,
+      "index": 3,
+      "pageUrl": "main/tabs/third",
+      "title": "Third"
+    },
+    {
+      "size": 24,
+      "enable": true,
+      "index": 4,
+      "pageUrl": "main/tabs/fourth",
+      "title": "Fourth"
+    }
+  ]
+}
