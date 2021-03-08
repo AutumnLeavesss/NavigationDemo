@@ -10,7 +10,7 @@ public class FourthViewModel extends ViewModel {
 
     public FourthViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+        mText.setValue("This is Fourth fragment");
     }
 
     public LiveData<String> getText() {

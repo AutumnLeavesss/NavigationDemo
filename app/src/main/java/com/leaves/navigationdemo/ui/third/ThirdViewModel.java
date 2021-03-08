@@ -10,7 +10,7 @@ public class ThirdViewModel extends ViewModel {
 
     public ThirdViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+        mText.setValue("This is Third fragment");
     }
 
     public LiveData<String> getText() {

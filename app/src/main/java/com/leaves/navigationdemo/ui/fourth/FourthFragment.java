@@ -1,6 +1,7 @@
 package com.leaves.navigationdemo.ui.fourth;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,6 +23,8 @@ public class FourthFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
+        Log.e("Header-OnCreateView", "onCreate: This is Fourth!"  );
+
         fourthViewModel =
                 new ViewModelProvider(this).get(FourthViewModel.class);
         View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
@@ -33,5 +36,11 @@ public class FourthFragment extends Fragment {
             }
         });
         return root;
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Log.e("Header-OnCreate", "onCreate: This is Fourth!"  );
     }
 }
